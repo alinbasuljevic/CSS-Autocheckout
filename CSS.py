@@ -21,7 +21,6 @@ def AutoCheckout():
         'product': '457687',
         'related_product':'',
         'super_attribute[554]':'4979',
-        
         'super_attribute[454]': '4765',
         'qty': '1'
         }
@@ -45,8 +44,8 @@ def AutoCheckout():
     shipping_payload = {
         'shipping[address_id]': '11243691',
         'shipping[country_id]': 'US',
-        'shipping[firstname]': 'Alin',
-        'shipping[lastname]': 'Basuljevic',
+        'shipping[firstname]': 'Test',
+        'shipping[lastname]': 'User',
         'shipping[street][]': '1 Test Avenue',
         'shipping[street][]': '1 Test Avenue',
         'shipping[city]': 'Manhattan',
@@ -74,8 +73,8 @@ def AutoCheckout():
     billing_info = {
         'billing[address_id]': '11243690',
         'billing[country_id]': 'US',
-        'billing[firstname]': 'Alin',
-        'billing[lastname]': 'Basuljevic',
+        'billing[firstname]': 'Test',
+        'billing[lastname]': 'User',
         'billing[street][]': '1 Test Avenue',
         'billing[street][]': '1 Test Avenue',
         'billing[city]': 'Manhattan',
